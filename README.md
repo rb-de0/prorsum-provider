@@ -42,7 +42,7 @@ extension Config {
 
 ```JSON
 {
-    "server": "kitura"
+    "server": "prorsum"
 }
 ```
 
