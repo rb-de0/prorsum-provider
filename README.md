@@ -31,8 +31,8 @@ import ProrsumProvider
 
 extension Config {
 	
-	 /// Configure providers
-	 private func setupProviders() throws {
+    /// Configure providers
+    private func setupProviders() throws {
         try addProvider(ProrsumProvider.Provider.self)
     }
 }
