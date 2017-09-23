@@ -11,13 +11,34 @@ The Prorsum provider for Vapor allows you to use Prorsum HTTP server in your Vap
 
 1. Add the ``Prorsum Provider`` to your Package.swift
 
+
+### Swift Package Manager V3
+
 ```Swift
+// swift-tools-version:3.1
 import PackageDescription
 
 let package = Package(
     name: "your-package-name",
     dependencies: [
         .Package(url: "https://github.com/rb-de0/prorsum-provider.git", majorVersion: 0, minor: 1)
+    ]
+)
+```
+
+### Swift Package Manager V4
+
+```Swift
+// swift-tools-version:4.0
+import PackageDescription
+
+let package = Package(
+    name: "your-package-name",
+    package: [
+        .Package(url: "https://github.com/rb-de0/prorsum-provider.git", from: "0.1.0")
+    ],
+    targets: [
+    	.target(name: "your-target-name")
     ]
 )
 ```
