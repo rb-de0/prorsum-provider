@@ -1,6 +1,6 @@
 # Prorsum Provider
 
-![Swift](http://img.shields.io/badge/swift-3.1-brightgreen.svg)
+![Swift](http://img.shields.io/badge/swift-4.0-brightgreen.svg)
 [![Build Status](https://travis-ci.org/rb-de0/prorsum-provider.svg?branch=master)](https://travis-ci.org/rb-de0/prorsum-provider)
 
 
